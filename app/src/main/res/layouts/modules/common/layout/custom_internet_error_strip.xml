@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayoutInternetStatusColor"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorRed"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textViewInternetError"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:maxLines="1"
+        android:padding="5dp"
+        android:text="No Internet"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:textColor="@android:color/white"
+        tools:ignore="RtlHardcoded" />
+</LinearLayout>
